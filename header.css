@@ -36,7 +36,6 @@
     display: block;
 }
 
-.lista__menu,
 .lista__menu-titulo{
     padding: 1em;
     background-color: var(--branco);
@@ -56,4 +55,22 @@
 
 .container__botao {
     display: none;
+}
+ 
+
+@media screen and (min-width: 1024px) {
+    .container__título,
+    .container__título--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+
+    .container__título{
+        font-weight: 400;
+        display: block;
+    }
+
+    .container__título--negrito{
+        font-weight: 700;
+    }
 }
